@@ -2,10 +2,9 @@ import './../css/Home.css';
 
 const Home = () => {
     return (
-        <div id="home">
-            <h1>home</h1>
-            <h2>this is home</h2>
-        </div> 
+        <main id="contact" className="main-content">
+            <h2>Home</h2>
+        </main> 
     );
 };
 
