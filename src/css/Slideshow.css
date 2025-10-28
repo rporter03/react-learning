@@ -1,0 +1,22 @@
+#slideshow {
+    position:relative;
+}
+
+#slideshow img {
+    max-width:100%;
+}
+.arrow {
+    color:black;
+    text-decoration:none;
+    size:2em;
+    position:absolute;
+    top:50%;
+}
+
+#right-arrow {
+    right:5%;
+}
+
+#left-arrow {
+    left:5%;
+}
