@@ -1,5 +1,5 @@
 {
-  "homepage": "/learn-react",
+  "homepage": "http:///learn-react",
   "name": "learn-react",
   "version": "0.1.0",
   "private": false,
@@ -11,7 +11,7 @@
     "axios": "^1.13.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-router-dom": "^7.9.4",
+    "react-router-dom": "^7.9.5",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -48,5 +48,12 @@
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^6.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rporter03/react-learning.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rporter03/react-learning/issues"
   }
 }
