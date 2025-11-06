@@ -1,11 +1,13 @@
 import Slideshow from "./../components/Slideshow";
-import './../css/Home.css';
+import HouseList from "../components/HouseList";
+import "./../css/Home.css";
 
 const Home = () => {
     return (
-        <main id="contact" className="main-content">
+        <main id="home" className="main-content">
             <Slideshow />
-        </main> 
+            <HouseList num="3" />
+        </main>
     );
 };
 
