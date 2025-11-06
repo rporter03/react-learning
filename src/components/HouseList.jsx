@@ -9,7 +9,7 @@ const HouseList = (props) => {
     //after page has loaded
     useEffect(()=>{
         const loadHouses = async() => {
-            const response = await axios.get("https://server-houses-p1xs.onrender.com/");
+            const response = await axios.get("https://server-houses-p1xs.onrender.com/api/houses");
             setHouses(response.data.splice(0,props.num));
         };
 
