@@ -16,7 +16,11 @@
 }
 
 #delete-content {
-  margin-bottom: 10px;
+  padding:10px;
+}
+
+#delete-content button {
+  margin-right:10px;
 }
 
 #dialog-content {
@@ -32,12 +36,12 @@
 }
 
 @media only screen and (min-width: 600px) {
-  #img-prev-section {
-    flex: 1;
+  #img-prev {
+    max-width: 30%;
   }
 
-  #img-prev {
-    max-width: 100%;
+  #img-prev-seciton {
+    flex:1;
   }
 
   #img-upload {

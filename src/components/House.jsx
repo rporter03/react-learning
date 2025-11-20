@@ -11,7 +11,17 @@ const House = (props) => {
 
     const closeHouseDetails = () => {
         setShowDialog(false);
-    }
+    };
+
+    const updateHouse = (house) => {
+        setHouse(house);
+    };
+
+    const hideHouse = () => {
+        setShowHouse(false);
+    };
+
+
     return (
         <>
             {showDialog?(
@@ -21,7 +31,9 @@ const House = (props) => {
                     size={props.size}
                     bathrooms={props.bathrooms}
                     main_image={props.main_image}
-                    features={props.features}/>
+                    features={props.features}
+                    updateHouse={updateHouse}
+                    hideHouse={hideHouse}/> 
             ):("")}
             <section className="house" onClick={showHouseDetails}>
                 <img src={"http://localhost:3001/images/"+props.main_image} alt="house" />
